@@ -1,2 +1,2 @@
-# sample-uses-react-hoocks
+# sample-uses-react-hooks
 React Hooks: Como utilizar e exemplos práticos
