@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { Router, Switch } from 'wouter'
 import Home from './pages/Home'
 import About from './pages/About'
+import List from './pages/List'
 
 const App = () =>{
     return (
@@ -10,6 +11,7 @@ const App = () =>{
         <Switch>
           <Home path={'/'}/>
           <About path={'/about'} />
+          <List path={'/list'} />
         </Switch>
     </Router>
     );
